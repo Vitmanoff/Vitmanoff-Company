@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Company Information</title>
+</head>
+<body>
+
+<h1>Company Information</h1>
+
+<!-- Вкладки и контент вкладок -->
+<div class="tabs-content-container">
+    <div class="tabs">
+        <div class="tab active-tab" onclick="showTab('it')">IT відділ</div>
+        <div class="tab" onclick="showTab('qa')">QA відділ</div>
+        <div class="tab" onclick="showTab('contacts')">Контакти</div>
+    </div>
+
+    <div id="it" class="content">
+        <div class="співробітник">
+            <img src="image\Petrenko Viktor.jpg" alt="Фото Віктора" class="фото">
+            <span class="ПІБ">Петренко Віктор Петрович</span>
+            <span class="Посада">CEO</span>
+            <span class="Стать">Чоловік</span>
+            <span class="дата_народження">День народження: 08.06.2005</span>
+            <span class="дата_зарахування_у_фірму">Прийшов у компанію: 26.02.2024</span>
+        </div>
+
+        <div class="співробітник">
+            <img src="image\Grigorovich Artem Ivanovich.jpg" alt="Фото Grigorovich Artem Ivanovich.jpg" class="фото">
+                <span class="ПІБ">Григорович Артем Іванович</span>
+                <span class="Посада">Middle</span>
+                <span class="Стать">Чоловік</span>
+                <span class="дата_народження"> День народження: 07.09.2002</span>
+                <span class="дата_зарахування_у_фірму">Прийшов у компанію: 28.02.2024</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="qa" class="content">
+        <div class="співробітник">
+            <img src="image\Petrenko Viktoria.jpg" alt="Фото Вікторії" class="фото">
+            <span class="ПІБ">Петренко Вікторія Василівна</span>
+            <span class="Посада">QA Tech Lead</span>
+            <span class="Стать">Жінка</span>
+            <span class="дата_народження">День народження: 06.08.2005</span>
+            <span class="дата_зарахування_у_фірму">Прийшла у компанію: 27.02.2024</span>
+        </div>
+    </div>
+
+    <div id="contacts" class="content">
+        <div class="контакти">
+            <span class="Адреса">Адреса: м.Дніпро, вул. Арбітражників 88</span>
+            <span class="Телефон">Телефон: +380991396378</span>
+            <span class="Пошта">Email: 58589878@ukr.net</span>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2024 Vitmanoff Company. Всі права захищені.
+</footer>
+
+</body>
+</html>
